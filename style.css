@@ -92,7 +92,6 @@ h1 {
 .weather-card img {
     width: 120px;
     height: 120px;
-    margin-bottom: 10px;
     transition: transform 0.6s;
 }
 .weather-card img:hover {
