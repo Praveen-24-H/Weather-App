@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>🌦️ Weather Forecast</h1>
+        </header>
+        <main>
+            <div class="search-bar">
+                <input type="text" id="city-input" placeholder="Enter city name...">
+                <button id="search-btn">Search</button>
+            </div>
+            <div id="current-weather" class="weather-card">
+                <img id="weather-icon" src="" alt="Weather Icon">
+                <h2 id="city-name">City Name</h2>
+                <p id="temperature">Temperature: 25°C</p>
+                <p id="description">Description: Clear Sky</p>
+            </div>
+        </main>
+        <footer>
+            <p>Powered by <a href="https://openweathermap.org" target="_blank">OpenWeatherMap</a></p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
