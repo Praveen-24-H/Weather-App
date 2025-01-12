@@ -1,0 +1,114 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #56CCF2, #2F80ED);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('18247361_v1008-18-d.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+}
+
+#app {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #00796b;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 70%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #00796b;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: #ffffff;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    border: none;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.search-bar button:hover {
+    background: linear-gradient(to right, #185a9d, #43cea2);
+}
+
+.weather-card {
+    background: #e1d088;
+    padding: 24px;
+    border-radius: 33px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.6s;
+    color: #333;
+}
+
+.weather-card:hover {
+    transform: translateY(-5px);
+}
+
+.weather-card h2 {
+    font-size: 3rem;
+    margin: 10px 10px 10px;
+    color: #00796b;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.weather-card img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+.weather-card p {
+    margin: 20px 20px;
+    font-size: 1.5rem;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #000000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+    color: #00796b;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
